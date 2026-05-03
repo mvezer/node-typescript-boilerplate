@@ -40,7 +40,7 @@ export default [
     },
   },
   {
-    files: ['__tests__/**'],
+    files: ['src/**/*.spec.ts', 'src/**/*.test.ts'],
 
     plugins: {
       vitest,
